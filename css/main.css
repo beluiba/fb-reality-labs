@@ -1,0 +1,132 @@
+.off {
+  opacity: 0.75; }
+
+.fb-color, .btn.btn-secondary, .btn.btn-odd, .link, body, .menu .list-group-item.active {
+  color: #4267B2; }
+
+.fb-bg, .btn.btn-primary, body nav.navbar, .menu .list-group-item.active span {
+  background-color: #4267B2; }
+
+.fb-light-bg, body main .content, body main .content .form .autocomplete-items div:hover {
+  background-color: #e6edf9; }
+
+h4, h5, h3 {
+  font-weight: normal;
+  line-height: 1.5em; }
+
+.bold {
+  font-weight: bold; }
+
+input.form-control, textarea.form-control, select.form-control {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 1.5em;
+  font-weight: normal;
+  border-radius: 0.2em; }
+
+option {
+  padding: 0.5em; }
+
+select:-internal-list-box option:checked {
+  background-color: #4267B2; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.btn {
+  border-radius: 0.2em;
+  padding: 0.5em 2em;
+  text-transform: uppercase; }
+  .btn.btn-secondary {
+    background-color: white;
+    border: none; }
+  .btn.btn-odd {
+    border: solid 1px #4267B2; }
+  .btn.step-btn {
+    max-width: 20em;
+    text-align: center;
+    margin: 2em auto; }
+
+.link {
+  text-decoration: underline; }
+
+.shirts {
+  padding: 0; }
+  .shirts h4 {
+    color: #777777;
+    font-size: 0.95em; }
+  .shirts .radio_item {
+    display: none; }
+  .shirts .label_item {
+    background: url(../img/shirt.svg) no-repeat center;
+    width: 4em;
+    height: 3em;
+    text-align: center;
+    padding-top: 0.75em;
+    margin: 0 0 0 0.5em; }
+  .shirts .radio_item:checked + label {
+    background: url(../img/shirt-checked.svg) no-repeat center;
+    color: white; }
+  .shirts label {
+    cursor: pointer; }
+
+strong {
+  font-weight: bold; }
+
+body nav.navbar .navbar-brand {
+  min-width: 10em;
+  max-width: 25%; }
+
+body main .content {
+  height: 100vh; }
+  body main .content .form {
+    max-width: 30em;
+    margin: 4em auto 0; }
+    body main .content .form.info {
+      text-align: left; }
+    body main .content .form .form-check {
+      text-align: left; }
+    body main .content .form .autocomplete-items {
+      background-color: white;
+      border: solid 1px #f0f0f0; }
+      body main .content .form .autocomplete-items div {
+        padding: 1em;
+        font-size: 1.2em;
+        cursor: pointer; }
+  body main .content .form-control {
+    background-color: #f6f6f6; }
+
+.popover .form-inline .form-control {
+  width: 2.5em;
+  padding: 0 0 0 0.5em;
+  margin-left: 1em;
+  text-align: center; }
+
+.days div {
+  display: inline-block; }
+
+.schedule .day-schedule {
+  padding: 1em; }
+  .schedule .day-schedule.odd {
+    background-color: #e6edf9; }
+
+.menu .list-group-item {
+  border: none; }
+  .menu .list-group-item span {
+    border-radius: 100%;
+    border: solid 1px #4267B2;
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.2em;
+    margin-right: 0.5em; }
+  .menu .list-group-item.active {
+    background: transparent; }
+    .menu .list-group-item.active h5 {
+      font-weight: bold; }
+    .menu .list-group-item.active span {
+      color: white; }

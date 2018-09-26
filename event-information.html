@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <meta content='width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
+        name='viewport' />
+    <meta name="viewport" content="width=device-width, height=device-height" />
+
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-12 menu mt-3">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h5><span>1</span> RSVP</h5>
+                        </li>
+                        <li class="list-group-item">
+                            <h5><span>2</span> Team</h5>
+                        </li>
+                        <li class="list-group-item active">
+                            <h5><span>3</span> Extra Information</h5>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-9 col-md-8 col-sm-12 content text-center">
+
+                    <form class="form info">
+                        <div class="form-group ">
+                            <label for="secondary-email">Can you give us a secondary contact email?</label>
+                            <input class="form-control form-control-lg" type="text" placeholder="Secondary Email" id="secondaryEmail"
+                                required>
+                        </div>
+
+                        <div class="form-group ">
+                            <label for="hotelName">Where are you staying?</label>
+                            <input class="form-control form-control-lg" type="text" placeholder="Hotel Name" id="hotelName"
+                                required>
+                        </div>
+                        <div class="form-group ">
+                            <label for="otherInfo">Please point us if there is any dietery restrictions or other
+                                information</label>
+                            <textarea class="form-control form-control-lg" name="otherInfo" id="otherInfo"></textarea>
+                        </div>
+
+                        <div class="form-group form-check shirts">
+                            <h4 class="left">Shirt size</h4>
+                            <input type="radio" class="radio_item" value="S" name="size" id="small">
+                            <label class="label_item" for="small"> S</label>
+
+                            <input type="radio" class="radio_item" value="M" name="size" id="medium">
+                            <label class="label_item" for="medium">M</label>
+
+                            <input type="radio" class="radio_item" value="L" name="size" id="large">
+                            <label class="label_item" for="large">L</label>
+
+                            <input type="radio" class="radio_item" value="XL" name="size" id="xlarge">
+                            <label class="label_item" for="xlarge">XL</label
+                                >
+                            <input type="radio" class="radio_item" value="XXL" name="size" id="xxlarge">
+                            <label class="label_item" for="xxlarge">XXL</label>
+                        </div>
+                        <div class="form-group mt-5">
+                            <a href="event-rsvp.html" class="btn btn-secondary btn-lg left">back</a>
+                            <button class="btn btn-primary btn-lg right" type="submit" name="next">next</button>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
